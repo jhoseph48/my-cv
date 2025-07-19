@@ -1,0 +1,135 @@
+/* ------------ VARIABLES ------------ */ 
+:root { 
+  --primary-color: #f1f1ef; 
+  --secondary-color: #3894a3; 
+  --light-color: #c7d4d4; 
+  --dark-color: #212529; 
+  --text-color: #2f414f; 
+  --accent-color: #17a2b8; 
+  --border-radius: 8px; 
+}
+
+/* ------------ RESET ------------ */ 
+body { 
+  font-family: 'Segoe UI', sans-serif; 
+  background-color: var(--light-color); 
+  color: var(--text-color); 
+  line-height: 1.6; 
+} 
+
+p {
+ color: var(--text-color);
+}
+
+h1 {
+ color: var(--secondary-color);
+}
+
+h2 {
+ color: var(--secondary-color);
+ text-align: center;
+}
+
+/* ------------ HEADER ------------ */ 
+header { 
+  background: linear-gradient(to right, var(--dark-color), var(--secondary-color));
+  color: white; 
+  padding: 20px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+} 
+
+header nav a:hover { 
+  color: var(--primary-color); 
+} 
+
+
+.Header{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.hero-image img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.Lateral{
+ display: flex;
+ justify-content: space-between;
+ flex-direction: row; 
+}
+
+/* ------------ SECTIONS ------------ */ 
+section { 
+  padding: 0px 50px; 
+  max-width: 1100px; 
+  margin: auto; 
+}
+section h2 { 
+  text-align: center; 
+  margin-bottom: 10px; 
+  color: var(--secondary-color); 
+} 
+
+/* ------------ EDUCATION ------------ */ 
+.Education1 {
+ margin: 20px;
+ padding: 15px;
+ box-shadow: -5px -5px 5px var(--primary-color);
+ border-radius: 8px;
+}
+
+/* ------------ LANGUAGES ------------ */ 
+.Languages1 {
+ margin: 20px;
+ padding: 15px;
+ box-shadow: -5px -5px 5px var(--primary-color);
+ border-radius: 8px;
+}
+
+/* ------------ SKILLS ------------ */ 
+.Skills1 {
+ margin: 20px;
+ padding: 15px;
+ box-shadow: -5px -5px 5px var(--primary-color);
+ border-radius: 8px;
+}
+
+/* ------------ PRESENTATION ------------ */ 
+.Presentation1 {
+ margin: 20px;
+ padding: 15px;
+ box-shadow: -5px -5px 5px var(--primary-color);
+ border-radius: 8px;
+}
+
+/* ------------ EXPERIENCE ------------ */ 
+.Experience1 {
+ margin: 20px;
+ padding: 15px;
+ box-shadow: -5px -5px 5px var(--primary-color);
+ border-radius: 8px;
+}
+
+/* ------------ EDUCATION ------------ */ 
+.footer {
+ display: flex;
+ justify-content: center;
+ flex-direction: row; 
+ background-color: var(--primary-color);
+}
+
+.imgfooter img {
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover;
+    object-fit: contain;
+    margin: 0 auto;
+    padding: 20px;
+}
